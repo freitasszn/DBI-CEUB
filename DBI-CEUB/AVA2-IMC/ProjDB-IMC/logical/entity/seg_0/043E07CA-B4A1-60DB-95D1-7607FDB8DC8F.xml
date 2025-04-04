@@ -1,0 +1,52 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="043E07CA-B4A1-60DB-95D1-7607FDB8DC8F" name="intuitos">
+<createdBy>Juan</createdBy>
+<createdTime>2025-04-04 00:34:43 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="A01400AC-EFAD-CCE2-9B5F-8593E2FC36B8" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="definicaoMuscular" id="6249680B-1B48-D305-8373-38B288350A49">
+<createdBy>Juan</createdBy>
+<createdTime>2025-04-04 00:35:25 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="A01400AC-EFAD-CCE2-9B5F-8593E2FC36B8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="emagrecimento" id="64DDAB1D-7A39-9E43-7C51-5067B198B050">
+<createdBy>Juan</createdBy>
+<createdTime>2025-04-04 00:35:25 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="A01400AC-EFAD-CCE2-9B5F-8593E2FC36B8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ganhoMassa" id="7911E036-9849-B01F-57B7-3F2CB8FD88A5">
+<createdBy>Juan</createdBy>
+<createdTime>2025-04-04 00:37:30 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="A01400AC-EFAD-CCE2-9B5F-8593E2FC36B8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

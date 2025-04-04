@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="PetShopProdutoServico" directorySegmentName="seg_0" id="DCEBE2EC-E10F-2FAE-6861-08335BAB7E75">
+<createdBy>Juan</createdBy>
+<createdTime>2025-03-28 00:20:46 UTC</createdTime>
+<ownerDesignName>ProjBD-Pet</ownerDesignName>
+<engineerTo>
+<item key="1014C36C-F402-D2AA-8C1F-78F22C30282F" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>9B43F905-BE41-7348-E24B-D287282CBABF</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>ED6AA36A-3B06-5C59-244C-C76E95CC4E8B</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

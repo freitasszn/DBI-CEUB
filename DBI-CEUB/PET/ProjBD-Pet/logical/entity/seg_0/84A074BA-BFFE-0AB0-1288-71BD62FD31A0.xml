@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="84A074BA-BFFE-0AB0-1288-71BD62FD31A0" name="Pet">
+<createdBy>Juan</createdBy>
+<createdTime>2025-03-27 23:43:03 UTC</createdTime>
+<ownerDesignName>ProjBD-Pet</ownerDesignName>
+<engineerTo>
+<item key="1014C36C-F402-D2AA-8C1F-78F22C30282F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>Pet</shortName>
+<synonym>Pet</synonym>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nome" id="666FF2F4-37DD-C526-7B55-21B5798E8D64">
+<createdBy>Juan</createdBy>
+<createdTime>2025-03-27 23:43:22 UTC</createdTime>
+<ownerDesignName>ProjBD-Pet</ownerDesignName>
+<engineerTo>
+<item key="1014C36C-F402-D2AA-8C1F-78F22C30282F" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="especie" id="6108F17D-EF6E-B2A9-5B4E-5BEC8002E9C7">
+<createdBy>Juan</createdBy>
+<createdTime>2025-03-27 23:43:29 UTC</createdTime>
+<ownerDesignName>ProjBD-Pet</ownerDesignName>
+<engineerTo>
+<item key="1014C36C-F402-D2AA-8C1F-78F22C30282F" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="raca" id="8011F7B4-CC51-D659-04E6-92245D9DA562">
+<createdBy>Juan</createdBy>
+<createdTime>2025-03-27 23:43:29 UTC</createdTime>
+<ownerDesignName>ProjBD-Pet</ownerDesignName>
+<engineerTo>
+<item key="1014C36C-F402-D2AA-8C1F-78F22C30282F" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dataNascimento" id="D66AADE0-61CC-E782-BC3F-5D1BB2EF4ACE">
+<createdBy>Juan</createdBy>
+<createdTime>2025-03-27 23:43:29 UTC</createdTime>
+<ownerDesignName>ProjBD-Pet</ownerDesignName>
+<engineerTo>
+<item key="1014C36C-F402-D2AA-8C1F-78F22C30282F" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="sexo" id="61504A1D-4C3F-A56F-DF7D-5E0C6466BC0F">
+<createdBy>Juan</createdBy>
+<createdTime>2025-03-27 23:43:29 UTC</createdTime>
+<ownerDesignName>ProjBD-Pet</ownerDesignName>
+<engineerTo>
+<item key="1014C36C-F402-D2AA-8C1F-78F22C30282F" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="registro" id="DB5DF406-E779-7E07-12CC-DBB994AAB3AB">
+<createdBy>Juan</createdBy>
+<createdTime>2025-03-27 23:43:30 UTC</createdTime>
+<ownerDesignName>ProjBD-Pet</ownerDesignName>
+<engineerTo>
+<item key="1014C36C-F402-D2AA-8C1F-78F22C30282F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="anotacoesCuidado" id="3B9C5A22-15EF-141A-2F7C-783B6BC9A407">
+<createdBy>Juan</createdBy>
+<createdTime>2025-03-27 23:43:29 UTC</createdTime>
+<ownerDesignName>ProjBD-Pet</ownerDesignName>
+<engineerTo>
+<item key="1014C36C-F402-D2AA-8C1F-78F22C30282F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

@@ -1,0 +1,109 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9B43F905-BE41-7348-E24B-D287282CBABF" name="PetShop">
+<createdBy>Juan</createdBy>
+<createdTime>2025-03-27 23:06:50 UTC</createdTime>
+<ownerDesignName>ProjBD-Pet</ownerDesignName>
+<engineerTo>
+<item key="1014C36C-F402-D2AA-8C1F-78F22C30282F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>psp</preferredAbbreviation>
+<shortName>PetShop</shortName>
+<synonym>PetShop</synonym>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="razaoSocial" id="B9786253-5C98-9446-8D6A-B7DC8DA50DCB">
+<createdBy>Juan</createdBy>
+<createdTime>2025-03-27 23:13:06 UTC</createdTime>
+<commentInRDBMS><![CDATA[Nome da empresa no sistema tributário.]]></commentInRDBMS>
+<notes><![CDATA[Este campo deve ter até 60 caracteres.]]></notes>
+<ownerDesignName>ProjBD-Pet</ownerDesignName>
+<engineerTo>
+<item key="1014C36C-F402-D2AA-8C1F-78F22C30282F" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="endereco" id="D53883CB-CE7C-6B7E-8131-451B1255E9D8">
+<createdBy>Juan</createdBy>
+<createdTime>2025-03-27 23:19:35 UTC</createdTime>
+<ownerDesignName>ProjBD-Pet</ownerDesignName>
+<engineerTo>
+<item key="1014C36C-F402-D2AA-8C1F-78F22C30282F" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telefone" id="6CF82037-F24F-C087-87ED-BD768E39F95F">
+<createdBy>Juan</createdBy>
+<createdTime>2025-03-27 23:19:59 UTC</createdTime>
+<ownerDesignName>ProjBD-Pet</ownerDesignName>
+<engineerTo>
+<item key="1014C36C-F402-D2AA-8C1F-78F22C30282F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="contato" id="E72A1841-E002-DD7E-67B2-383AB160A376">
+<createdBy>Juan</createdBy>
+<createdTime>2025-03-27 23:20:10 UTC</createdTime>
+<ownerDesignName>ProjBD-Pet</ownerDesignName>
+<engineerTo>
+<item key="1014C36C-F402-D2AA-8C1F-78F22C30282F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cnpj" id="EE38EFFE-B144-8FB8-5DE1-79CCABDB1190">
+<createdBy>Juan</createdBy>
+<createdTime>2025-03-27 23:20:19 UTC</createdTime>
+<ownerDesignName>ProjBD-Pet</ownerDesignName>
+<engineerTo>
+<item key="1014C36C-F402-D2AA-8C1F-78F22C30282F" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="incricaoEstadual" id="F5B3599A-0229-5597-6956-4EBD899A7EBC">
+<createdBy>Juan</createdBy>
+<createdTime>2025-03-27 23:21:31 UTC</createdTime>
+<ownerDesignName>ProjBD-Pet</ownerDesignName>
+<engineerTo>
+<item key="1014C36C-F402-D2AA-8C1F-78F22C30282F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="horarioFuncionamento" id="77E96B2F-BEF0-F79F-F56D-AA6F1BDF49D2">
+<createdBy>Juan</createdBy>
+<createdTime>2025-03-27 23:21:52 UTC</createdTime>
+<ownerDesignName>ProjBD-Pet</ownerDesignName>
+<engineerTo>
+<item key="1014C36C-F402-D2AA-8C1F-78F22C30282F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="atividade" id="EC0B6FD0-52CD-6281-E449-97A00DFCE1DF">
+<createdBy>Juan</createdBy>
+<createdTime>2025-03-27 23:22:36 UTC</createdTime>
+<ownerDesignName>ProjBD-Pet</ownerDesignName>
+<engineerTo>
+<item key="1014C36C-F402-D2AA-8C1F-78F22C30282F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

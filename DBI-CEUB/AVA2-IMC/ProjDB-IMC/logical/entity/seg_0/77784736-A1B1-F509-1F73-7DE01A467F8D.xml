@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="77784736-A1B1-F509-1F73-7DE01A467F8D" name="Cliente">
+<createdBy>Juan</createdBy>
+<createdTime>2025-04-04 00:31:49 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="A01400AC-EFAD-CCE2-9B5F-8593E2FC36B8" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nome" id="EB2E7018-B570-1006-495E-07D06FC2C936">
+<createdBy>Juan</createdBy>
+<createdTime>2025-04-04 00:32:12 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="A01400AC-EFAD-CCE2-9B5F-8593E2FC36B8" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idade" id="0F2022A8-74E1-42C7-A5F5-BE5C9639C800">
+<createdBy>Juan</createdBy>
+<createdTime>2025-04-04 00:32:16 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="A01400AC-EFAD-CCE2-9B5F-8593E2FC36B8" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpf" id="A7058E5B-3DF8-7ECC-32E2-D426EF3481AA">
+<createdBy>Juan</createdBy>
+<createdTime>2025-04-04 00:32:17 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="A01400AC-EFAD-CCE2-9B5F-8593E2FC36B8" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="peso" id="B999FCC7-13B7-7EF2-23D7-9476CE668F8F">
+<createdBy>Juan</createdBy>
+<createdTime>2025-04-04 00:32:19 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="A01400AC-EFAD-CCE2-9B5F-8593E2FC36B8" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="altura" id="2343EEC3-6FBF-D266-0EC4-67FC980625E3">
+<createdBy>Juan</createdBy>
+<createdTime>2025-04-04 00:32:20 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="A01400AC-EFAD-CCE2-9B5F-8593E2FC36B8" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telefone" id="2CAD0568-EDE3-AB5B-471E-B61A1CABE1BF">
+<createdBy>Juan</createdBy>
+<createdTime>2025-04-04 00:33:37 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="A01400AC-EFAD-CCE2-9B5F-8593E2FC36B8" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="email" id="069118B1-5374-1AF0-3A9B-6AE0D0B7CB1D">
+<createdBy>Juan</createdBy>
+<createdTime>2025-04-04 00:33:44 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="A01400AC-EFAD-CCE2-9B5F-8593E2FC36B8" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>
