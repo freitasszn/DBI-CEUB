@@ -1,0 +1,134 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B8E797BB-CAAF-E857-758A-2336729F6418" name="Clientes">
+<createdBy>juan.freitas</createdBy>
+<createdTime>2025-05-09 00:38:38 UTC</createdTime>
+<generatorID>64D7C8BE-2D91-CDEA-EA89-B42AFDEED667</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cpfCliente" id="E2D94828-1D10-DCD2-3448-C70EC4D5C2C2">
+<createdBy>juan.freitas</createdBy>
+<createdTime>2025-05-09 00:38:38 UTC</createdTime>
+<generatorID>1922C8E7-8E70-BC14-4C4F-C46943C59D10</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>14</dataTypeSize>
+<ownDataTypeParameters>14,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nomeCliente" id="2DCB012C-3DEB-1265-6466-059149B83F70">
+<createdBy>juan.freitas</createdBy>
+<createdTime>2025-05-09 00:38:38 UTC</createdTime>
+<generatorID>98EBF3B5-C2A9-7F27-948E-3F915DD3A8E6</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefoneCliente" id="39A3FA85-3FB8-EEB1-7993-8DD630585BE9">
+<createdBy>juan.freitas</createdBy>
+<createdTime>2025-05-09 00:38:38 UTC</createdTime>
+<generatorID>994EC53B-6C22-6221-C927-AD370A5AB23A</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="logradouro" id="8214B2C5-AA10-1220-3195-2A4BB9AF32EC">
+<createdBy>juan.freitas</createdBy>
+<createdTime>2025-05-09 00:38:38 UTC</createdTime>
+<generatorID>72A747A4-9775-53F2-8E54-3E3AFC11C470</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="numeroEndereco" id="2163E02E-83CB-4671-D99C-B89C8C3BCE76">
+<createdBy>juan.freitas</createdBy>
+<createdTime>2025-05-09 00:38:38 UTC</createdTime>
+<generatorID>5B4D5004-81C9-D8FF-694B-0A16FF0EC4CD</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="complemento" id="D6FC6062-2175-E5F0-5CCF-9C829F9E1F17">
+<createdBy>juan.freitas</createdBy>
+<createdTime>2025-05-09 00:38:38 UTC</createdTime>
+<generatorID>80C1B28E-9FB4-BC0D-F6F3-E8E29A8DC364</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cidade" id="1976EAC2-28D2-E7B7-6279-9ACF13E4FAAB">
+<createdBy>juan.freitas</createdBy>
+<createdTime>2025-05-09 00:38:38 UTC</createdTime>
+<generatorID>6EFD5982-41A1-53D8-463F-E28533B4C1EF</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="estado" id="D7E1C930-F92B-DF91-BA0D-38F26158F8F2">
+<createdBy>juan.freitas</createdBy>
+<createdTime>2025-05-09 00:38:38 UTC</createdTime>
+<generatorID>EDE68B5A-8A21-592C-6573-4C356E42A131</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cep" id="76A929E6-0537-8F60-C9F0-3D069002DB3C">
+<createdBy>juan.freitas</createdBy>
+<createdTime>2025-05-09 00:38:38 UTC</createdTime>
+<generatorID>03FFD697-BBDC-B9AE-E032-53D3C63F6C0C</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9C5CF521-7A80-F5C7-46D6-11C331818945" name="Clientes_PK">
+<createdBy>juan.freitas</createdBy>
+<createdTime>2025-05-09 00:38:38 UTC</createdTime>
+<generatorID>32691D1F-E014-805E-4524-76514D28D221</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E2D94828-1D10-DCD2-3448-C70EC4D5C2C2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

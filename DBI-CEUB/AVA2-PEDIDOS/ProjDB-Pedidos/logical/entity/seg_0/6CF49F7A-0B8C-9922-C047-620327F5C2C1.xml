@@ -1,0 +1,152 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6CF49F7A-0B8C-9922-C047-620327F5C2C1" name="Pedidos">
+<createdBy>juan.freitas</createdBy>
+<createdTime>2025-05-09 00:29:15 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="C27F6BC2-1EC6-A79E-DBA4-A4246400152A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idPedido" id="0FED67C4-86C1-1031-2DC7-9A5C5F1C176B">
+<createdBy>juan.freitas</createdBy>
+<createdTime>2025-05-09 00:29:33 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="C27F6BC2-1EC6-A79E-DBA4-A4246400152A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dataPedido" id="80DCD8D5-1433-3BEA-536E-E4612A7F95F4">
+<createdBy>juan.freitas</createdBy>
+<createdTime>2025-05-09 00:29:34 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="C27F6BC2-1EC6-A79E-DBA4-A4246400152A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="horaPedido" id="D24CBF7E-76F6-FAF1-8598-77C2C057273C">
+<createdBy>juan.freitas</createdBy>
+<createdTime>2025-05-09 00:29:34 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="C27F6BC2-1EC6-A79E-DBA4-A4246400152A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="statusPedido" id="A6C1625A-46C5-BA52-BD47-63650F1D3810">
+<createdBy>juan.freitas</createdBy>
+<createdTime>2025-05-09 00:29:35 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="C27F6BC2-1EC6-A79E-DBA4-A4246400152A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="valorTotalPedido" id="2B5B6449-A9EE-4C24-6680-FE1140A99886">
+<createdBy>juan.freitas</createdBy>
+<createdTime>2025-05-09 00:29:36 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="C27F6BC2-1EC6-A79E-DBA4-A4246400152A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpfCliente" id="A5F47720-430C-141D-1843-ED79F1861AE0">
+<createdBy>juan.freitas</createdBy>
+<createdTime>2025-05-09 00:29:36 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="C27F6BC2-1EC6-A79E-DBA4-A4246400152A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>14</dataTypeSize>
+<ownDataTypeParameters>14,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="matriculaVendedor" id="C0D9D642-A227-9677-5A6A-FD6B05B1139A">
+<createdBy>juan.freitas</createdBy>
+<createdTime>2025-05-09 00:29:37 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="C27F6BC2-1EC6-A79E-DBA4-A4246400152A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpfCliente1" id="0B9CEB68-AF2D-E54E-B9FA-ED89BF682765">
+<createdBy>juan.freitas</createdBy>
+<createdTime>2025-05-09 00:37:09 UTC</createdTime>
+<generatorID>80C817D1-5893-4578-91FE-C8B8D8D40237</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="C27F6BC2-1EC6-A79E-DBA4-A4246400152A" value="true"/>
+</engineerTo>
+<referedAttribute>1922C8E7-8E70-BC14-4C4F-C46943C59D10</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>14</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="matriculaVendedor1" id="1AC488EF-3F17-06E7-5F18-6773AC74D56B">
+<createdBy>juan.freitas</createdBy>
+<createdTime>2025-05-09 00:37:26 UTC</createdTime>
+<generatorID>8945C01A-A129-D264-EFB8-7DACBE80AE65</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="C27F6BC2-1EC6-A79E-DBA4-A4246400152A" value="true"/>
+</engineerTo>
+<referedAttribute>F7C9DA5A-0041-CEDD-8DC9-3E3C066E283F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1F960C5D-42C7-6443-EC53-F226565665BA" name="Pedidos PK">
+<createdBy>juan.freitas</createdBy>
+<createdTime>2025-05-09 00:30:09 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="C27F6BC2-1EC6-A79E-DBA4-A4246400152A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>0FED67C4-86C1-1031-2DC7-9A5C5F1C176B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

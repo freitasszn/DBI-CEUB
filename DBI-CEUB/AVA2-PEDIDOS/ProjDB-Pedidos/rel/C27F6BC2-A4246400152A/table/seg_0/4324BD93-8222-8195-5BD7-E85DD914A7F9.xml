@@ -1,0 +1,50 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4324BD93-8222-8195-5BD7-E85DD914A7F9" name="vendedores">
+<createdBy>juan.freitas</createdBy>
+<createdTime>2025-05-09 00:38:38 UTC</createdTime>
+<generatorID>36A08C45-E7B0-A974-6E73-8BD40B12DB60</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="matriculaVendedor" id="649A448E-DB4C-843D-0E5E-898796F15E8D">
+<createdBy>juan.freitas</createdBy>
+<createdTime>2025-05-09 00:38:38 UTC</createdTime>
+<generatorID>F7C9DA5A-0041-CEDD-8DC9-3E3C066E283F</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nomeVendedor" id="B7AF3D32-96E8-7AE0-3485-1991CAC019B7">
+<createdBy>juan.freitas</createdBy>
+<createdTime>2025-05-09 00:38:38 UTC</createdTime>
+<generatorID>9423F92F-ECFC-7612-D4D2-C2512A10A1D5</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="19295025-D645-5DBC-B7E1-985C370901DB" name="vendedores_PK">
+<createdBy>juan.freitas</createdBy>
+<createdTime>2025-05-09 00:38:38 UTC</createdTime>
+<generatorID>E9BA5EF0-D1D0-E448-979E-B21EE63189D1</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="649A448E-DB4C-843D-0E5E-898796F15E8D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

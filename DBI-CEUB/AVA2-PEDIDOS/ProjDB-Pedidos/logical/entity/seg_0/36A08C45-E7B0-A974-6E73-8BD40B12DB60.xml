@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="36A08C45-E7B0-A974-6E73-8BD40B12DB60" name="vendedores">
+<createdBy>juan.freitas</createdBy>
+<createdTime>2025-05-09 00:24:32 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="C27F6BC2-1EC6-A79E-DBA4-A4246400152A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="matriculaVendedor" id="F7C9DA5A-0041-CEDD-8DC9-3E3C066E283F">
+<createdBy>juan.freitas</createdBy>
+<createdTime>2025-05-09 00:24:43 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="C27F6BC2-1EC6-A79E-DBA4-A4246400152A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nomeVendedor" id="9423F92F-ECFC-7612-D4D2-C2512A10A1D5">
+<createdBy>juan.freitas</createdBy>
+<createdTime>2025-05-09 00:24:43 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="C27F6BC2-1EC6-A79E-DBA4-A4246400152A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E9BA5EF0-D1D0-E448-979E-B21EE63189D1" name="vendedores PK">
+<createdBy>juan.freitas</createdBy>
+<createdTime>2025-05-09 00:25:04 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="C27F6BC2-1EC6-A79E-DBA4-A4246400152A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F7C9DA5A-0041-CEDD-8DC9-3E3C066E283F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
