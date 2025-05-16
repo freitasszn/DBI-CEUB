@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4F26ECB0-1D46-D357-C07B-FADDC570592C" name="Telefone_Dependente">
+<createdBy>juan.freitas</createdBy>
+<createdTime>2025-05-16 00:33:25 UTC</createdTime>
+<generatorID>05072B16-160B-5B87-0623-55D0DD2D03A6</generatorID>
+<ownerDesignName>ProjDB-CEUB</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cpf_dependente" id="8C50853E-AD32-EFCA-71DE-09D7290081BE">
+<createdBy>juan.freitas</createdBy>
+<createdTime>2025-05-16 00:33:25 UTC</createdTime>
+<generatorID>1081EDBC-823E-1644-7C45-49DE984540A1</generatorID>
+<ownerDesignName>ProjDB-CEUB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>14</dataTypeSize>
+<ownDataTypeParameters>14,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefone_dependente" id="D02D3C71-A309-9ED5-7B62-0CBF1F673505">
+<createdBy>juan.freitas</createdBy>
+<createdTime>2025-05-16 00:33:25 UTC</createdTime>
+<generatorID>3DECFF38-BFFB-E6D6-68C1-F3FB8B815274</generatorID>
+<ownerDesignName>ProjDB-CEUB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Dependente_cpf_associado" id="EF0DA6DC-1493-7FFC-A87E-F1EDF2CB0CB4">
+<createdBy>juan.freitas</createdBy>
+<createdTime>2025-05-16 00:33:25 UTC</createdTime>
+<generatorID>D3FE7C45-A07D-C5A5-6115-E7816C44A241</generatorID>
+<ownerDesignName>ProjDB-CEUB</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="757484C9-E68B-4D0B-94E0-5A55E9496D8A" referredColumn="D5AA9DE9-46EF-8B6E-1F89-BEEEF021CF4E"/>
+</associations>
+</Column>
+<Column name="Dependente_cpf_dependente" id="C125DE19-646C-CA19-A5A1-36BF0659CB31">
+<createdBy>juan.freitas</createdBy>
+<createdTime>2025-05-16 00:33:25 UTC</createdTime>
+<generatorID>D33C1BA9-A64C-5D3F-FFC0-5758988E763E</generatorID>
+<ownerDesignName>ProjDB-CEUB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>14</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="757484C9-E68B-4D0B-94E0-5A55E9496D8A" referredColumn="6F1E7C8D-C5F4-96CE-16CF-03243AAA8BE1"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B1814E54-DC99-EB1C-F045-3A46245B478C" name="Telefone_Dependente_PK">
+<createdBy>juan.freitas</createdBy>
+<createdTime>2025-05-16 00:33:25 UTC</createdTime>
+<generatorID>5FF77717-F306-1BC7-094F-D2EDEB964491</generatorID>
+<ownerDesignName>ProjDB-CEUB</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8C50853E-AD32-EFCA-71DE-09D7290081BE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="453CB8AA-4253-646A-5CFD-2D5880F02965" name="Telefone_Dependente_Dependente_FK">
+<createdBy>juan.freitas</createdBy>
+<createdTime>2025-05-16 00:33:25 UTC</createdTime>
+<generatorID>3FCCB69D-7A6F-BD2E-1194-E67C0CC6A8B1</generatorID>
+<ownerDesignName>ProjDB-CEUB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EF0DA6DC-1493-7FFC-A87E-F1EDF2CB0CB4"/>
+<colUsage columnID="C125DE19-646C-CA19-A5A1-36BF0659CB31"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

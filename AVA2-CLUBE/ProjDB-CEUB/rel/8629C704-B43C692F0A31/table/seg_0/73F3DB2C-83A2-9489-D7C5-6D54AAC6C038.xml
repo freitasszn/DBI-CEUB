@@ -1,0 +1,132 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="73F3DB2C-83A2-9489-D7C5-6D54AAC6C038" name="Dependente">
+<createdBy>juan.freitas</createdBy>
+<createdTime>2025-05-16 00:21:00 UTC</createdTime>
+<generatorID>68C0BD4F-4DD0-771A-D7AC-CAB70CD3ED47</generatorID>
+<ownerDesignName>ProjDB-CEUB</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_dependente" id="FE305E24-6528-85DC-6AEA-892BD122BDA1">
+<createdBy>juan.freitas</createdBy>
+<createdTime>2025-05-16 00:21:00 UTC</createdTime>
+<generatorID>F6379663-8674-E6CE-3F04-5B71469757FC</generatorID>
+<ownerDesignName>ProjDB-CEUB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_associado" id="FD857AB2-4246-426E-25D6-98913E63D5EF">
+<createdBy>juan.freitas</createdBy>
+<createdTime>2025-05-16 00:21:00 UTC</createdTime>
+<generatorID>BC938121-7374-201A-09D9-DD65FB03E1B2</generatorID>
+<ownerDesignName>ProjDB-CEUB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nome" id="6CBF6F40-FE7E-33AA-BF8A-DDF41B7E6F32">
+<createdBy>juan.freitas</createdBy>
+<createdTime>2025-05-16 00:21:00 UTC</createdTime>
+<generatorID>0A38868D-2CBB-0567-B75F-23BB8102A0A8</generatorID>
+<ownerDesignName>ProjDB-CEUB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data_nascimento" id="8E556E21-0D5D-9BD7-A600-9464CA5F0193">
+<createdBy>juan.freitas</createdBy>
+<createdTime>2025-05-16 00:21:00 UTC</createdTime>
+<generatorID>4ACD9520-332C-D77D-43C2-654EE80B47B7</generatorID>
+<ownerDesignName>ProjDB-CEUB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="grau_parentesco" id="116FA753-D1E8-CD3B-2997-F68AA3B1C3D7">
+<createdBy>juan.freitas</createdBy>
+<createdTime>2025-05-16 00:21:00 UTC</createdTime>
+<generatorID>7C73241B-21CB-0DCD-20FA-9CF09C309BC2</generatorID>
+<ownerDesignName>ProjDB-CEUB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Associado_id_associado" id="94B24DDA-AD13-07AD-24C0-9CCBF1ADB392">
+<createdBy>juan.freitas</createdBy>
+<createdTime>2025-05-16 00:21:00 UTC</createdTime>
+<generatorID>071FA571-B3E8-DA66-CD22-023069E4B240</generatorID>
+<ownerDesignName>ProjDB-CEUB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Associado_cpf" id="6F1E7C8D-C5F4-96CE-16CF-03243AAA8BE1">
+<createdBy>juan.freitas</createdBy>
+<createdTime>2025-05-16 00:33:25 UTC</createdTime>
+<generatorID>4E0502EE-7CE6-2C22-5ED7-D33AE1688C68</generatorID>
+<ownerDesignName>ProjDB-CEUB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>14</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0AB3E6BF-6521-A7B1-0C75-40EE72B1CB8F" referredColumn="AF78E689-481D-5D4F-E59F-CFB3B4C7C7DF"/>
+</associations>
+</Column>
+<Column name="cpf_associado" id="D5AA9DE9-46EF-8B6E-1F89-BEEEF021CF4E">
+<createdBy>juan.freitas</createdBy>
+<createdTime>2025-05-16 00:33:25 UTC</createdTime>
+<generatorID>F850B084-190F-0BF8-D715-CE0669447704</generatorID>
+<ownerDesignName>ProjDB-CEUB</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="66E025D1-69E0-5708-267A-8B2CA7DFE5F4" name="Dependente_PK">
+<createdBy>juan.freitas</createdBy>
+<createdTime>2025-05-16 00:21:00 UTC</createdTime>
+<generatorID>627E3F49-4A41-3EF6-9331-AB73496213B0</generatorID>
+<ownerDesignName>ProjDB-CEUB</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D5AA9DE9-46EF-8B6E-1F89-BEEEF021CF4E"/>
+<colUsage columnID="6F1E7C8D-C5F4-96CE-16CF-03243AAA8BE1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="76A38739-E605-ACCD-1CD6-48CAC8B88CF5" name="Dependente_Associado_FK">
+<createdBy>juan.freitas</createdBy>
+<createdTime>2025-05-16 00:21:00 UTC</createdTime>
+<generatorID>2ED385CF-6CF2-4F51-5A25-31609804D7D7</generatorID>
+<ownerDesignName>ProjDB-CEUB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6F1E7C8D-C5F4-96CE-16CF-03243AAA8BE1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

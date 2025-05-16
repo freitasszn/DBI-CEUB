@@ -1,0 +1,123 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9D532794-C81A-5971-9AEF-2DA027EE9896" name="Associado">
+<createdBy>juan.freitas</createdBy>
+<createdTime>2025-05-15 23:40:25 UTC</createdTime>
+<ownerDesignName>ProjDB-CEUB</ownerDesignName>
+<engineerTo>
+<item key="8629C704-BC60-0EB5-6CD7-B43C692F0A31" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nome" id="35E3080A-483F-1E1E-3A80-D13AAACD2082">
+<createdBy>juan.freitas</createdBy>
+<createdTime>2025-05-15 23:40:37 UTC</createdTime>
+<ownerDesignName>ProjDB-CEUB</ownerDesignName>
+<engineerTo>
+<item key="8629C704-BC60-0EB5-6CD7-B43C692F0A31" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpf" id="1252CF93-5A0B-880C-D53B-C0906ECC28AF">
+<createdBy>juan.freitas</createdBy>
+<createdTime>2025-05-15 23:40:38 UTC</createdTime>
+<ownerDesignName>ProjDB-CEUB</ownerDesignName>
+<engineerTo>
+<item key="8629C704-BC60-0EB5-6CD7-B43C692F0A31" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>14</dataTypeSize>
+<ownDataTypeParameters>14,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="data-nascimento" id="D79A4792-81EA-7F4B-892F-3B71FCB9B231">
+<createdBy>juan.freitas</createdBy>
+<createdTime>2025-05-15 23:40:38 UTC</createdTime>
+<ownerDesignName>ProjDB-CEUB</ownerDesignName>
+<engineerTo>
+<item key="8629C704-BC60-0EB5-6CD7-B43C692F0A31" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="endereco" id="D36926A4-C996-CB60-9973-5B3F7FC51B19">
+<createdBy>juan.freitas</createdBy>
+<createdTime>2025-05-15 23:40:39 UTC</createdTime>
+<ownerDesignName>ProjDB-CEUB</ownerDesignName>
+<engineerTo>
+<item key="8629C704-BC60-0EB5-6CD7-B43C692F0A31" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="email" id="C8D1D46A-2322-B299-0E2E-CF0EF310F0E9">
+<createdBy>juan.freitas</createdBy>
+<createdTime>2025-05-15 23:40:39 UTC</createdTime>
+<ownerDesignName>ProjDB-CEUB</ownerDesignName>
+<engineerTo>
+<item key="8629C704-BC60-0EB5-6CD7-B43C692F0A31" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="data_cadastro" id="EC7E1ECE-95CF-A5E5-CE7C-21ECFCBB27C5">
+<createdBy>juan.freitas</createdBy>
+<createdTime>2025-05-15 23:40:40 UTC</createdTime>
+<ownerDesignName>ProjDB-CEUB</ownerDesignName>
+<engineerTo>
+<item key="8629C704-BC60-0EB5-6CD7-B43C692F0A31" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="status" id="4EFCF0CA-2416-BAC1-A9B5-E95612FB6896">
+<createdBy>juan.freitas</createdBy>
+<createdTime>2025-05-15 23:40:40 UTC</createdTime>
+<ownerDesignName>ProjDB-CEUB</ownerDesignName>
+<engineerTo>
+<item key="8629C704-BC60-0EB5-6CD7-B43C692F0A31" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="34F81B88-B772-19A8-C648-1D40D3EE899D" name="Associado PK">
+<createdBy>juan.freitas</createdBy>
+<createdTime>2025-05-15 23:41:06 UTC</createdTime>
+<ownerDesignName>ProjDB-CEUB</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="8629C704-BC60-0EB5-6CD7-B43C692F0A31" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>1252CF93-5A0B-880C-D53B-C0906ECC28AF</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="881887C4-CAB1-4385-E234-B91731F109E9" name="Endereco">
+<createdBy>juan.freitas</createdBy>
+<createdTime>2025-05-16 00:37:27 UTC</createdTime>
+<ownerDesignName>ProjDB-CEUB</ownerDesignName>
+<engineerTo>
+<item key="8629C704-BC60-0EB5-6CD7-B43C692F0A31" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="endereco" id="F8AAC8D0-378D-7BA1-AACA-EE75362E08B3">
+<createdBy>juan.freitas</createdBy>
+<createdTime>2025-05-16 00:38:15 UTC</createdTime>
+<ownerDesignName>ProjDB-CEUB</ownerDesignName>
+<engineerTo>
+<item key="8629C704-BC60-0EB5-6CD7-B43C692F0A31" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpf_2" id="EF2E9ADA-F87D-ED03-AF89-65EB3021131D">
+<createdBy>juan.freitas</createdBy>
+<createdTime>2025-05-16 00:38:15 UTC</createdTime>
+<ownerDesignName>ProjDB-CEUB</ownerDesignName>
+<engineerTo>
+<item key="8629C704-BC60-0EB5-6CD7-B43C692F0A31" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>14</dataTypeSize>
+<ownDataTypeParameters>14,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpf" id="89DBCF5E-1572-73F0-599E-66E52901D3A2">
+<createdBy>juan.freitas</createdBy>
+<createdTime>2025-05-16 00:39:22 UTC</createdTime>
+<generatorID>F858630E-9F75-270C-2A1D-0CC466637E54</generatorID>
+<ownerDesignName>ProjDB-CEUB</ownerDesignName>
+<engineerTo>
+<item key="8629C704-BC60-0EB5-6CD7-B43C692F0A31" value="true"/>
+</engineerTo>
+<referedAttribute>1252CF93-5A0B-880C-D53B-C0906ECC28AF</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>14</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpf_associado1" id="6011BC11-77C5-4E51-1763-E7D4683CA903">
+<createdBy>juan.freitas</createdBy>
+<createdTime>2025-05-16 00:40:59 UTC</createdTime>
+<generatorID>E4183FE2-19F6-AB1C-9B3F-AC0812EC8270</generatorID>
+<ownerDesignName>ProjDB-CEUB</ownerDesignName>
+<engineerTo>
+<item key="8629C704-BC60-0EB5-6CD7-B43C692F0A31" value="true"/>
+</engineerTo>
+<referedAttribute>F850B084-190F-0BF8-D715-CE0669447704</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpf_dependente" id="7FEAE9F6-C8B9-FA33-3F5C-10E7C2E02059">
+<createdBy>juan.freitas</createdBy>
+<createdTime>2025-05-16 00:40:59 UTC</createdTime>
+<generatorID>E4183FE2-19F6-AB1C-9B3F-AC0812EC8270</generatorID>
+<ownerDesignName>ProjDB-CEUB</ownerDesignName>
+<engineerTo>
+<item key="8629C704-BC60-0EB5-6CD7-B43C692F0A31" value="true"/>
+</engineerTo>
+<referedAttribute>4E0502EE-7CE6-2C22-5ED7-D33AE1688C68</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>14</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C43C3E7C-F270-9114-D442-6583D9CD8197" name="Endereco PK">
+<createdBy>juan.freitas</createdBy>
+<createdTime>2025-05-16 00:38:35 UTC</createdTime>
+<ownerDesignName>ProjDB-CEUB</ownerDesignName>
+<engineerTo>
+<item key="8629C704-BC60-0EB5-6CD7-B43C692F0A31" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>EF2E9ADA-F87D-ED03-AF89-65EB3021131D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

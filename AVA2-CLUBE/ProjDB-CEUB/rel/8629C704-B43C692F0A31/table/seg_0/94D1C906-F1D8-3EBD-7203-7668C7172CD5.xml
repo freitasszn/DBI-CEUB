@@ -1,0 +1,118 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="94D1C906-F1D8-3EBD-7203-7668C7172CD5" name="Telefone">
+<createdBy>juan.freitas</createdBy>
+<createdTime>2025-05-16 00:33:25 UTC</createdTime>
+<generatorID>10F0B04E-FF39-7D0C-7132-8817C40167A9</generatorID>
+<ownerDesignName>ProjDB-CEUB</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cpf2" id="9C56D914-FF3E-4769-00A9-85ABB9051256">
+<createdBy>juan.freitas</createdBy>
+<createdTime>2025-05-16 00:33:25 UTC</createdTime>
+<generatorID>5E27612A-3680-CC8B-8ECA-BDA444EF7FCB</generatorID>
+<ownerDesignName>ProjDB-CEUB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>14</dataTypeSize>
+<ownDataTypeParameters>14,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefone" id="29785D9E-D3C3-B8A0-D657-3E8F5F71F1F9">
+<createdBy>juan.freitas</createdBy>
+<createdTime>2025-05-16 00:33:25 UTC</createdTime>
+<generatorID>CACF2022-7585-1690-ED41-483780E9807A</generatorID>
+<ownerDesignName>ProjDB-CEUB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Associado_cpf" id="9E4C65D4-9CAC-69B0-E449-7C71C2581627">
+<createdBy>juan.freitas</createdBy>
+<createdTime>2025-05-16 00:33:25 UTC</createdTime>
+<generatorID>5A7D3BC6-5FE8-A65F-DF35-EBB4BED43C45</generatorID>
+<ownerDesignName>ProjDB-CEUB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>14</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="75684458-4C70-8F52-C60E-C268C6CDB031" referredColumn="AF78E689-481D-5D4F-E59F-CFB3B4C7C7DF"/>
+</associations>
+</Column>
+<Column name="Dependente_cpf_associado" id="617507BB-56D8-6A0F-67E7-FD3E3B2C9F4C">
+<createdBy>juan.freitas</createdBy>
+<createdTime>2025-05-16 00:44:39 UTC</createdTime>
+<generatorID>FFF052E3-DB15-56B6-1E8F-F614FE80C0CB</generatorID>
+<ownerDesignName>ProjDB-CEUB</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E49D8E91-83B0-E974-F9A2-EF86EF4BDC3E" referredColumn="D5AA9DE9-46EF-8B6E-1F89-BEEEF021CF4E"/>
+</associations>
+</Column>
+<Column name="Dependente_Associado_cpf" id="64E08E49-1FE4-D538-BA08-76BF8A81DE25">
+<createdBy>juan.freitas</createdBy>
+<createdTime>2025-05-16 00:44:39 UTC</createdTime>
+<generatorID>7A3FD3EF-1710-0BA2-9406-D63EEF6F35AD</generatorID>
+<ownerDesignName>ProjDB-CEUB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>14</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E49D8E91-83B0-E974-F9A2-EF86EF4BDC3E" referredColumn="6F1E7C8D-C5F4-96CE-16CF-03243AAA8BE1"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F38B7E43-2872-F732-3041-3965C9C063B2" name="Telefone_Associado_PK">
+<createdBy>juan.freitas</createdBy>
+<createdTime>2025-05-16 00:33:25 UTC</createdTime>
+<generatorID>4A555650-30F9-C266-77AD-087C969B1D34</generatorID>
+<ownerDesignName>ProjDB-CEUB</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9C56D914-FF3E-4769-00A9-85ABB9051256"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="080E0AA7-99E9-689D-69A0-7CBA8B89BED9" name="Telefone_Associado_Associado_FK">
+<createdBy>juan.freitas</createdBy>
+<createdTime>2025-05-16 00:33:25 UTC</createdTime>
+<generatorID>109D226C-0800-4CE6-E9FB-5D3E837999A2</generatorID>
+<ownerDesignName>ProjDB-CEUB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9E4C65D4-9CAC-69B0-E449-7C71C2581627"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5561CBBE-771D-7CF6-48DD-5266ED2CD343" name="Telefone_Dependente_FK">
+<createdBy>juan.freitas</createdBy>
+<createdTime>2025-05-16 00:44:39 UTC</createdTime>
+<generatorID>1A364A80-EA4D-346D-84B6-5DE3CE7276E8</generatorID>
+<ownerDesignName>ProjDB-CEUB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="617507BB-56D8-6A0F-67E7-FD3E3B2C9F4C"/>
+<colUsage columnID="64E08E49-1FE4-D538-BA08-76BF8A81DE25"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

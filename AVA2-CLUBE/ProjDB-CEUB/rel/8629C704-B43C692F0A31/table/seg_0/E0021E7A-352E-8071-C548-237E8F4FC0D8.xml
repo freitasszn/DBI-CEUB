@@ -1,0 +1,119 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E0021E7A-352E-8071-C548-237E8F4FC0D8" name="Associado">
+<createdBy>juan.freitas</createdBy>
+<createdTime>2025-05-16 00:21:00 UTC</createdTime>
+<generatorID>9D532794-C81A-5971-9AEF-2DA027EE9896</generatorID>
+<ownerDesignName>ProjDB-CEUB</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_associado" id="9A7B8704-8392-01FC-D3B3-C535EE63EE8A">
+<createdBy>juan.freitas</createdBy>
+<createdTime>2025-05-16 00:21:00 UTC</createdTime>
+<generatorID>C55614D5-2F86-619D-24EA-A8F734E57C0F</generatorID>
+<ownerDesignName>ProjDB-CEUB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nome" id="75259ABA-89EA-86B3-3491-6AB178EEC7D7">
+<createdBy>juan.freitas</createdBy>
+<createdTime>2025-05-16 00:21:00 UTC</createdTime>
+<generatorID>35E3080A-483F-1E1E-3A80-D13AAACD2082</generatorID>
+<ownerDesignName>ProjDB-CEUB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cpf" id="AF78E689-481D-5D4F-E59F-CFB3B4C7C7DF">
+<createdBy>juan.freitas</createdBy>
+<createdTime>2025-05-16 00:21:00 UTC</createdTime>
+<generatorID>1252CF93-5A0B-880C-D53B-C0906ECC28AF</generatorID>
+<ownerDesignName>ProjDB-CEUB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>14</dataTypeSize>
+<ownDataTypeParameters>14,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data-nascimento" id="9B75DD5B-D33E-202D-E472-DB53C2DFDCF0">
+<createdBy>juan.freitas</createdBy>
+<createdTime>2025-05-16 00:21:00 UTC</createdTime>
+<generatorID>D79A4792-81EA-7F4B-892F-3B71FCB9B231</generatorID>
+<ownerDesignName>ProjDB-CEUB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="endereco" id="A8DEACA4-8AEC-5A6C-F8A0-C0C60695B6BF">
+<createdBy>juan.freitas</createdBy>
+<createdTime>2025-05-16 00:21:00 UTC</createdTime>
+<generatorID>D36926A4-C996-CB60-9973-5B3F7FC51B19</generatorID>
+<ownerDesignName>ProjDB-CEUB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="email" id="108D9E11-EFE9-E4BA-6D30-A73755BAD958">
+<createdBy>juan.freitas</createdBy>
+<createdTime>2025-05-16 00:21:00 UTC</createdTime>
+<generatorID>C8D1D46A-2322-B299-0E2E-CF0EF310F0E9</generatorID>
+<ownerDesignName>ProjDB-CEUB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data_cadastro" id="293DE8C0-A012-C49A-9BC9-CA1ABB868291">
+<createdBy>juan.freitas</createdBy>
+<createdTime>2025-05-16 00:21:00 UTC</createdTime>
+<generatorID>EC7E1ECE-95CF-A5E5-CE7C-21ECFCBB27C5</generatorID>
+<ownerDesignName>ProjDB-CEUB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="status" id="04E9047F-6804-A479-0DF2-52FA92C338A8">
+<createdBy>juan.freitas</createdBy>
+<createdTime>2025-05-16 00:21:00 UTC</createdTime>
+<generatorID>4EFCF0CA-2416-BAC1-A9B5-E95612FB6896</generatorID>
+<ownerDesignName>ProjDB-CEUB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E3A927FA-B529-708D-8BC1-6E325E233D42" name="Associado_PK">
+<createdBy>juan.freitas</createdBy>
+<createdTime>2025-05-16 00:21:00 UTC</createdTime>
+<generatorID>34F81B88-B772-19A8-C648-1D40D3EE899D</generatorID>
+<ownerDesignName>ProjDB-CEUB</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AF78E689-481D-5D4F-E59F-CFB3B4C7C7DF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
